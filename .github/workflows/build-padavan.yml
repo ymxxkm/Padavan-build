@@ -62,21 +62,21 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_ALIDDNS/d' .config #删除配置项阿里DDNS
         sed -i 'CONFIG_FIRMWARE_INCLUDE_MENTOHUST/d' .config #删除配置项MENTOHUST
         sed -i 'CONFIG_FIRMWARE_INCLUDE_CADDY/d' .config #删除配置项在线文件管理服务
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_CADDYBIN/d' .config #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME/d' .config  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_SRELAY/d' .config  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_WYY/d' .config  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_WYYBIN/d' .config  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_ZEROTIER/d' .config #zerotier ~1.3M  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_TROJAN/d' .config  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT/d' .config #SCUTCLIENT  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS/d' .config #SS plus+  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_SSOBFS/d' .config # simple-obfs混淆插件  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_SSSERVER/d' .config #SS server  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER/d' .config #DNSFORWARDER  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_ADBYBY/d' .config #adbyby plus+  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_TUNSAFE/d' .config #TUNSAFE  #删除配置项
-        sed -i 'CONFIG_FIRMWARE_INCLUDE_V2RAY/d' .config  #删除配置项
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_CADDYBIN/d' .config #删除配置项CADDYBIN
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME/d' .config  #删除配置项ADGUARDHOME
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_SRELAY/d' .config  #删除配置项SRELAY
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_WYY/d' .config  #删除配置项WYY
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_WYYBIN/d' .config  #删除配置项WYYBIN
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_ZEROTIER/d' .config #zerotier ~1.3M  #删除配置项ZEROTIER
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_TROJAN/d' .config  #删除配置项TROJAN
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT/d' .config #SCUTCLIENT  #删除配置项SCUTCLIENT
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS/d' .config #SS plus+  #删除配置项SHADOWSOCKS
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_SSOBFS/d' .config # simple-obfs混淆插件  #删除配置项SSOBFS
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_SSSERVER/d' .config #SS server  #删除配置项SSSERVER
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER/d' .config #DNSFORWARDER  #删除配置项DNSFORWARDER
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_ADBYBY/d' .config #删除配置项adbyby plus+  
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_TUNSAFE/d' .config  #删除配置项TUNSAFE 
+        sed -i 'CONFIG_FIRMWARE_INCLUDE_V2RAY/d' .config  #删除配置项V2RAY
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SMARTDNS/d' .config  #删除配置项
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SRELAY/d' .config  #删除配置项
         sed -i 's/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=n/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=y/g' .config
